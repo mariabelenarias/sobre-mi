@@ -1,0 +1,96 @@
+* {
+    margin: 3px;
+    /*margen para los cuatro lados*/
+    padding: 5px;
+    /*espacio entre contenido y borde del elemento*/
+    color: white;
+    /*color de letra*/
+}
+
+/*selector universal*/
+
+body {
+    background: #E4C7F9;
+    /*color fondo*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*estilo de letra*/
+    }
+
+#container {
+    width: 1000px;
+    /*ancho*/
+    height: 1425px;
+    /*alto*/
+    margin: 0px auto;
+    border: 1px solid purple;
+    /*bordes*/
+}
+
+/*selector de clase para algún elemento en particular*/
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100px;
+    width: 98%;
+    background-color: #7A20BB;
+    text-align: center;
+    /*alineación del texto*/
+    line-height: 100px;
+    /*altura entre lineas de texto*/
+    color: white;
+    font-style: italic;
+}
+
+#content {
+    float: left;
+    /*ubica el elemento del lado izquierdo*/
+    width: 60.5%;
+    background-color: #B371E3;
+    min-height: 500px;
+    /*altura minima de un elemento*/
+}
+
+.imagen{
+  text-align: center;
+  margin-left: 150px;
+}
+
+.video{
+    text-align: center;
+    margin-left: 40px;
+}
+
+.article {
+    margin-top: 15px;
+    /*margen superior*/
+    margin-bottom: 15px;
+    /*margen inferior*/
+}
+
+/*selector de clase para algún elemento*/
+
+aside {
+    float: left;
+    width: 36%;
+    background-color: #ADACAE;
+    text-align: center;
+    height: 1215px;
+}
+
+.text-fucsia{
+    color: #F70AEF;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*baja el siguiente elemento para que el footer quede abajo*/
+
+footer {
+    background-color: #7A20BB;
+    text-align: center;
+    height: 50px;
+    width: 98%;
+    line-height: 30px;
+}
