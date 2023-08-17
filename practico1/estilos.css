@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("cuentas.jpg");
+
+}
+
+#calculadora {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 450px;
+    height: 250px;
+    padding: 50px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 20px;
+    border-radius: 6px;
+    background-color: blanchedalmond;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+form {
+    text-align: center;
+
+    text-align: justify;
+}
+
+input,
+select,
+button {
+    border-radius: 4px;
+
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: blueviolet;
+    scale: 1.05;
+}
+
+#limpiar {
+    background-color: white;
+    color: black;
+    cursor: pointer
+}
+
+#limpiar:hover {
+    scale: 1.05;
+}
