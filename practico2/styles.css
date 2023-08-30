@@ -1,0 +1,54 @@
+button {
+    background-color: white;
+    border: 4px solid black;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.container {
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#resultado {
+    text-align: center;
+    align-content: flex-end;
+
+}
+
+#resultado img {
+    width: 12%;
+    background-color: white;
+    border: 4px solid black;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#texto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    padding: 20px;
+}
+
+#opciones {
+    display: flex;
+    width: 100%;
+   justify-content: center
+}
+
+#opciones button img {
+    width: 50%;
+}
